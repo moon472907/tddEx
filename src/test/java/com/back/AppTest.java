@@ -8,11 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest
 {
     @Test
-    @DisplayName("1 + 2 == 3")
-    void t1(){
-        // 테스트 로직 작성
-        App app = new App();
-        int rs =  app.plus(1,2);
-        assertEquals(3,rs);
+    @DisplayName("rq.getActionName")
+    void t1(){rq rq = new rq ("수정id =1");
+        String actionName = rq.getActionName();;
+        assertEquals("수정", actionName);
     }
+
 }
