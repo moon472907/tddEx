@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest
 {
     @Test
-    @DisplayName("테스트 1")
+    @DisplayName("1 + 2 == 3")
     void t1(){
         // 테스트 로직 작성
         App app = new App();
