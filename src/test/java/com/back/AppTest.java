@@ -9,6 +9,7 @@ public class AppTest
     @DisplayName("테스트 1")
     void t1(){
         // 테스트 로직 작성
-        System.out.println("테스트 1 실행");
+        App app = new App();
+        int aap.plus(1,2)
     }
 }
