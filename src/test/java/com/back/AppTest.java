@@ -3,6 +3,8 @@ package com.back;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class AppTest
 {
     @Test
@@ -10,6 +12,7 @@ public class AppTest
     void t1(){
         // 테스트 로직 작성
         App app = new App();
-        int aap.plus(1,2)
+        int rs =  app.plus(1,2);
+        assertEquals(3,rs);
     }
 }
